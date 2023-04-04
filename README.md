@@ -6,7 +6,7 @@ All API must use this authentication
 
 Request:
 - Header :
-  - X-Api_key : "your secret api key"
+  - X-Api_key : "Matamu"
 
 ## CREATE PRODUCT
 
