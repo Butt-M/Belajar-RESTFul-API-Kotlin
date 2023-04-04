@@ -1,0 +1,10 @@
+services:
+  belajar-restful-api-postgres:
+    container_name: "kotlin-restful-api"
+    image: postgres:latest
+    ports:
+      - 4040:5432
+    environment:
+      POSTGRES_PASSWORD: kotlin
+      POSTGRES_USER: kotlin
+      POSTGRES_DB: restful-api
